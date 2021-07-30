@@ -1,2 +1,265 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">XirSys</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">This is <br><span class="home__title-color">XirSys</span><br> Your Digital Ally</h1>
+
+        <a href="#" class="button">Contact</a>
+      </div>
+
+      <div class="home__social">
+        <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+        <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+        <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+      </div>
+
+      <div class="home__img">
+        <%=image_tag("VectorBig.png")%>
+      </div>
+    </section>
+
+      <!--===== ABOUT =====-->
+    <h2 class="section-title">Services</h2>
+    <section class="page-contain" id="about">
+      <a href="#" class="data-card">
+        <h3>270</h3>
+        <h4>Care Facilities</h4>
+        <p>Aenean lacinia bibendum nulla sed consectetur.</p>
+        <span class="link-text">
+          View All Providers
+          <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
+          </svg>
+        </span>
+      </a>
+      <a href="#" class="data-card">
+
+        <h3>12,000</h3>
+        <h4>Employees</h4>
+        <p>Etiam porta sem malesuada.</p>
+        <span class="link-text">
+          View Information
+        <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
+        </svg>
+        </span>
+      </a>
+      <a href="#" class="data-card">
+            <h3>12,000</h3>
+            <h4>Employees</h4>
+            <p>Etiam porta sem malesuada.</p>
+            <span class="link-text">
+              View Information
+              <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8631 0.929124L24.2271 7.29308C24.6176 7.68361 24.6176 8.31677 24.2271 8.7073L17.8631 15.0713C17.4726 15.4618 16.8394 15.4618 16.4489 15.0713C16.0584 14.6807 16.0584 14.0476 16.4489 13.657L21.1058 9.00019H0.47998V7.00019H21.1058L16.4489 2.34334C16.0584 1.95281 16.0584 1.31965 16.4489 0.929124C16.8394 0.538599 17.4726 0.538599 17.8631 0.929124Z" fill="#753BBD"/>
+        </svg>
+        </span>
+      </a>
+    </section>
+      <!--===== SKILLS =====-->
+    <section class="skills section" id="skills" style="background-color: #EFECCA;height: 608px;">
+      <h2 class="section-title">Softwares</h2>
+      <div class="text-cont">
+        <p style="
+          font-size: 20px;
+          text-align: left;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quasi aspernatur in, hic architecto aliquid placeat nostrum tempora, odit quae assumenda atque adipisci omnis sit enim laborum doloribus illo sunt.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt quod veniam a quas laudantium hic perferendis nostrum amet eos, totam omnis impedit id molestias aliquam dolore excepturi doloremque nemo.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, pariatur officiis. Quam accusantium dolorem, modi voluptatum quasi quidem rerum exercitationem iure laborum sint, nemo id dicta alias quae fuga cum!
+        </p>
+      </div>
+      <!-- <div class="blog-card alt">
+        <div class="meta">
+          <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+          <ul class="details">
+            <li class="author"><a href="#">Jane Doe</a></li>
+            <li class="date">July. 15, 2015</li>
+            <li class="tags">
+              <ul>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">Code</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="description">
+          <h1>Mastering the Language</h1>
+          <h2>Java is not the same as JavaScript</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+          <p class="read-more">
+            <a href="#">Read More</a>
+          </p>
+        </div>
+      </div> -->
+    </section>
+
+      <!--===== WORK =====-->
+    <section class="work section" id="work">
+      <h2 class="section-title" style="padding-bottom: 9rem;">Our Projects</h2>
+
+      <div id="carousel-wrapper">
+        <div id="menu">
+            <div id="current-option">
+              <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+              <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+            </div>
+            <button id="previous-option"></button>
+            <button id="next-option"></button>
+
+        </div>
+        <div id="image"></div>
+      </div>
+    </section>
+
+      <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <input type="text" placeholder="Name" class="contact__input">
+          <input type="mail" placeholder="Email" class="contact__input">
+          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <input type="button" value="Enviar" class="contact__button button">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+      <p class="footer__title">XirSys</p>
+      <div class="footer__social">
+          <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+          <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+          <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+      </div>
+      <p>&#169; 2020 copyright all right reserved to Xirsys</p>
+  </footer>
+
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+  <script>
+     //on selec
+    var btn = document.getElementById('hello');
+
+    function random(number) {
+      return Math.floor(Math.random()*(number+1));
+    }
+
+    btn.onclick = function() {
+      var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+      document.getElementById("img_main").style.backgroundColor = rndCol;
+    }
+  </script>
+
+  <script>
+   const text1_options = [
+  "Why art is so important",
+  "Why you shouldn't buy the new iPhone",
+  "Is life actually real?",
+  "How to learn JS in 2 months"
+  ];
+  const text2_options = [
+    "69 min. read",
+    "7 min. read",
+    "8 min. read",
+    "87,658.1277 min. read"
+  ];
+  const color_options = ["#0FA3B1", "#F7FF58", "#FF934F", "#5E565A"];
+  const image_options = [
+    "https://images.unsplash.com/photo-1524721696987-b9527df9e512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80",
+    "https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    "https://images.unsplash.com/photo-1506073828772-2f85239b6d2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
+    "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+  ];
+  var i = 0;
+  const currentOptionText1 = document.getElementById("current-option-text1");
+  const currentOptionText2 = document.getElementById("current-option-text2");
+  const currentOptionImage = document.getElementById("image");
+  const carousel = document.getElementById("carousel-wrapper");
+  const mainMenu = document.getElementById("menu");
+  const optionPrevious = document.getElementById("previous-option");
+  const optionNext = document.getElementById("next-option");
+
+  currentOptionText1.innerText = text1_options[i];
+  currentOptionText2.innerText = text2_options[i];
+  currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
+  mainMenu.style.background = color_options[i];
+
+  optionNext.onclick = function () {
+    i = i + 1;
+    i = i % text1_options.length;
+    currentOptionText1.dataset.nextText = text1_options[i];
+
+    currentOptionText2.dataset.nextText = text2_options[i];
+
+    mainMenu.style.background = color_options[i];
+    carousel.classList.add("anim-next");
+
+    setTimeout(() => {
+      currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
+    }, 455);
+
+    setTimeout(() => {
+      currentOptionText1.innerText = text1_options[i];
+      currentOptionText2.innerText = text2_options[i];
+      carousel.classList.remove("anim-next");
+    }, 650);
+  };
+
+  optionPrevious.onclick = function () {
+    if (i === 0) {
+      i = text1_options.length;
+    }
+    i = i - 1;
+    currentOptionText1.dataset.previousText = text1_options[i];
+
+    currentOptionText2.dataset.previousText = text2_options[i];
+
+    mainMenu.style.background = color_options[i];
+    carousel.classList.add("anim-previous");
+
+    setTimeout(() => {
+      currentOptionImage.style.backgroundImage = "url(" + image_options[i] + ")";
+    }, 455);
+
+    setTimeout(() => {
+      currentOptionText1.innerText = text1_options[i];
+      currentOptionText2.innerText = text2_options[i];
+      carousel.classList.remove("anim-previous");
+    }, 650);
+  };
+
+  </script>
+</body>
